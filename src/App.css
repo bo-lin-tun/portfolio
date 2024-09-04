@@ -36,3 +36,103 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-link {
+  text-decoration: none;
+  color: "#424242"; /* Default color */
+  transition: color 0.3s ease;
+  margin-right: 100px;
+  transition: text-decoration 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgb(250, 19, 19);
+  text-decoration: underline;
+
+}
+.skill-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.skills-image {
+  display: "flex";
+  align-items: "center";
+
+  
+  width: 300px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 20px 20px #424242;
+  animation: fadeInMove 1s ease-in-out;
+}
+
+@keyframes fadeInMove {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.css{
+animation: fadeInMove 2s ease-in-out;
+}
+
+
+.js{
+animation: fadeInMove 3s ease-in-out;
+}
+
+.react{
+animation: fadeInMove 4s ease-in-out;
+}
+
+.note{
+
+animation: fadeInMoveNote 1s ease-in-out;
+}
+
+@keyframes fadeInMoveNote{
+  0%{
+
+opacity: 0;
+transform: translateX(200px);
+}
+ 100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.express{
+
+animation: fadeInMoveNote 2s ease-in-out;
+}
+
+.prisma{
+
+animation: fadeInMoveNote 3s ease-in-out;
+}
+
+
+@keyframes fadeInMoveImage{
+  0%{
+
+
+transform: translateX(0px);
+}
+ 100% {
+    
+    transform: translateX(100px);
+  }
+ h3 {
+      animation: fadeInMoveImage 2s infinite alternate; /* Adjust duration and timing as needed */
+    }
+}
