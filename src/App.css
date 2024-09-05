@@ -65,6 +65,7 @@
   border-radius: 10px;
   box-shadow: 0 20px 20px #424242;
   animation: fadeInMove 1s ease-in-out;
+  background-color: #dbe8e8;
 }
 
 @keyframes fadeInMove {
@@ -132,13 +133,11 @@
 
     /* Show hamburger icon */
   }
-.contenyDiv{
-
-display: flex;
-flex-direction: row;
- justify-content: space-around;
-}
-
+  .contenyDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 @media (max-width: 768px) {
@@ -146,16 +145,16 @@ flex-direction: row;
     display: none; /* Hide navigation links */
     flex-direction: column;
     position: absolute;
-    top: 70px; /* Adjust as needed */
-    left: 0px;
+    top: 59px; /* Adjust as needed */
+    left: -12px;
     background-color: #f5f5f5;
     color: #e35050;
     width: 300px; /* Adjust the width as necessary */
     padding: 10px;
     z-index: 1000;
     height: 1000px;
-border-radius: 4px;
-animation: nav-linksAni  0.7s ease-in-out;
+    border-radius: 4px;
+    animation: nav-linksAni 0.7s ease-in-out;
   }
 
   .nav-links.show {
@@ -183,33 +182,40 @@ animation: nav-linksAni  0.7s ease-in-out;
 
     /* Show hamburger icon */
   }
-.tagHompePage{
-padding: 10px;
-}  
-.contenyDiv{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.abotName{
-font-size: 25px;
-padding: 7px;
-}
-.skill-div {
-  display: flex;
-  flex-direction: column;
-align-items: center;
+  .tagHompePage {
+    padding: 10px;
+  }
+  .contenyDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .abotName {
+    font-size: 25px;
+    padding: 7px;
+  }
+  .skill-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cvImage {
+    width: 20px;
+    height: 20px;
+  }
 
-}
-}
-
-
-@keyframes  nav-linksAni {
-  0%{
-transform: translateX(-200px);
-}
-100%{
-transform: translateX(0px)
-}
+  .cvDiv {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
+@keyframes nav-linksAni {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(-3px);
+  }
+}

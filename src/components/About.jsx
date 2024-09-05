@@ -29,9 +29,10 @@ const About = () => {
         </h3>
         {/* skill div    */}
         <h1 style={{ marginLeft: "-990px", color: "#F5F5F5" }}> 𝐬𝐤𝐢𝐥𝐥𝐬</h1>
+
         <div className="skill-div">
           <div className="front-end">
-            <h3>𝐟𝐫𝐨𝐧𝐭-𝐄𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐒𝐤𝐢𝐥𝐥𝐬</h3>
+            <h2>𝗙𝐫𝐨𝐧𝐭𝗲𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐒𝐤𝐢𝐥𝐥𝐬</h2>
             <div>
               <div
                 className="skills-image"
@@ -41,7 +42,7 @@ const About = () => {
                 }}
               >
                 <img src="html.jpg" width={40} style={{ marginLeft: 40 }} />
-                <h2 style={{ marginLeft: 50, color: "#F5F5F5" }}>𝐇𝐓𝐌𝐋</h2>
+                <h2 style={{ marginLeft: 50, color: "black", }}>𝐇𝐓𝐌𝐋</h2>
               </div>
 
               {/* css */}
@@ -54,7 +55,7 @@ const About = () => {
                 }}
               >
                 <img src="cssbg.png" width={50} style={{ marginLeft: 40 }} />
-                <h2 style={{ marginLeft: 50, color: "#F5F5F5" }}>𝐜𝐬𝐬</h2>
+                <h2 style={{ marginLeft: 50, color: "black" }}>𝐜𝐬𝐬</h2>
               </div>
               {/* js */}
               <div
@@ -66,7 +67,7 @@ const About = () => {
                 }}
               >
                 <img src="js-logo.png" width={40} style={{ marginLeft: 40 }} />
-                <h2 style={{ marginLeft: 50, color: "#F5F5F5" }}>𝐣𝐬</h2>
+                <h2 style={{ marginLeft: 50, color: "black" }}>𝐣𝐬</h2>
               </div>
 
               {/* React */}
@@ -79,18 +80,15 @@ const About = () => {
                 }}
               >
                 <img src="react.png" width={40} style={{ marginLeft: 40 }} />
-                <h2 style={{ marginLeft: 50, color: "#F5F5F5" }}>𝐑𝐞𝐚𝐜𝐭</h2>
+                <h2 style={{ marginLeft: 50, color: "black" }}>𝐑𝐞𝐚𝐜𝐭</h2>
               </div>
             </div>
           </div>
           {/*  */}
           <div className="Backend">
-            <h3>𝐁𝐚𝐜𝐤𝐞𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐒𝐤𝐢𝐥𝐥𝐬</h3>
+            <h2>𝐁𝐚𝐜𝐤𝐞𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐒𝐤𝐢𝐥𝐥𝐬</h2>
             <div
-              style={{
-                width: "400px",
-                marginLeft: "120px",
-              }}
+             
             >
               {/* Note.js*/}
               <div
@@ -106,7 +104,7 @@ const About = () => {
                   width={60}
                   style={{ marginLeft: 40 }}
                 />
-                <h2 style={{ marginLeft: 50, color: "#F5F5F5" }}>𝐍𝐨𝐝𝐞.𝐣𝐬</h2>
+                <h2 style={{ marginLeft: 50, color: "black" }}>𝐍𝐨𝐝𝐞.𝐣𝐬</h2>
               </div>
 
               {/* Express.js*/}
@@ -124,7 +122,7 @@ const About = () => {
                   height={70}
                   style={{ marginLeft: 40 }}
                 />
-                <h2 style={{ marginLeft: 50, color: "#F5F5F5" }}>𝐄𝐱𝐩𝐫𝐞𝐬𝐬.𝐣𝐬</h2>
+                <h2 style={{ marginLeft: 50, color: "black" }}>𝐄𝐱𝐩𝐫𝐞𝐬𝐬.𝐣𝐬</h2>
               </div>
 
               {/* prisma.js*/}
@@ -142,7 +140,7 @@ const About = () => {
                   height={60}
                   style={{ marginLeft: 40 }}
                 />
-                <h2 style={{ marginLeft: 50, color: "#F5F5F5" }}>𝐏𝐫𝐢𝐬𝐦𝐚</h2>
+                <h2 style={{ marginLeft: 50, color: "black" }}>𝐏𝐫𝐢𝐬𝐦𝐚</h2>
               </div>
             </div>
           </div>

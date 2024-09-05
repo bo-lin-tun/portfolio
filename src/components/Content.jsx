@@ -1,18 +1,17 @@
 const Content = () => {
   return (
-    <div
-     
-className="contenyDiv"
-    >
+    <div className="contenyDiv">
       <div className="Right">
         {/* phone */}
-        <div style={{ display: "flex", alignItems: "center" , marginTop: "40px"}}>
+        <div
+          style={{ display: "flex", alignItems: "center", marginTop: "40px" }}
+        >
           <img src="phone.png" alt="" width={40} height={40} />
           <a
             href="tel:+959791563867"
             style={{ marginLeft: "40px", color: "black" }}
           >
-          +959791563867
+            +959791563867
           </a>
         </div>
         {/* messenger */}
@@ -30,11 +29,13 @@ className="contenyDiv"
       </div>
       <div>
         {/* facebbok */}
-        <div style={{ display: "flex", alignItems: "center",marginTop:"40px" }}>
+        <div
+          style={{ display: "flex", alignItems: "center", marginTop: "40px" }}
+        >
           <img src="facebook.png" alt="" width={40} height={40} />
           <a
             href="https://m.facebook.com/bo.l.htun.56?mibextid=LQQJ4d"
-            style={{ marginLeft: "40px", color: "black" ,}}
+            style={{ marginLeft: "40px", color: "black" }}
           >
             𝐁𝐨 𝐋𝐢𝐧𝐧 𝐇𝐭𝐮𝐧
           </a>
