@@ -48,20 +48,17 @@
 .nav-link:hover {
   color: rgb(250, 19, 19);
   text-decoration: underline;
-
 }
 .skill-div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
 }
 
 .skills-image {
   display: "flex";
   align-items: "center";
 
-  
   width: 300px;
   height: 40px;
   padding: 5px;
@@ -80,59 +77,139 @@
     transform: translateX(0);
   }
 }
-.css{
-animation: fadeInMove 2s ease-in-out;
+.css {
+  animation: fadeInMove 2s ease-in-out;
 }
 
-
-.js{
-animation: fadeInMove 3s ease-in-out;
+.js {
+  animation: fadeInMove 3s ease-in-out;
 }
 
-.react{
-animation: fadeInMove 4s ease-in-out;
+.react {
+  animation: fadeInMove 4s ease-in-out;
 }
 
-.note{
-
-animation: fadeInMoveNote 1s ease-in-out;
+.note {
+  animation: fadeInMoveNote 1s ease-in-out;
 }
 
-@keyframes fadeInMoveNote{
-  0%{
-
-opacity: 0;
-transform: translateX(200px);
-}
- 100% {
+@keyframes fadeInMoveNote {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
 
-
-.express{
-
-animation: fadeInMoveNote 2s ease-in-out;
+.express {
+  animation: fadeInMoveNote 2s ease-in-out;
 }
 
-.prisma{
-
-animation: fadeInMoveNote 3s ease-in-out;
+.prisma {
+  animation: fadeInMoveNote 3s ease-in-out;
 }
 
-
-@keyframes fadeInMoveImage{
-  0%{
-
-
-transform: translateX(0px);
-}
- 100% {
-    
+@keyframes fadeInMoveImage {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
     transform: translateX(100px);
   }
- h3 {
-      animation: fadeInMoveImage 2s infinite alternate; /* Adjust duration and timing as needed */
-    }
+  h3 {
+    animation: fadeInMoveImage 2s infinite alternate; /* Adjust duration and timing as needed */
+  }
 }
+
+/* for responsive */
+
+@media (min-width: 768px) {
+  .hamburger-menu {
+    display: none;
+
+    /* Show hamburger icon */
+  }
+.contenyDiv{
+
+display: flex;
+flex-direction: row;
+ justify-content: space-around;
+}
+
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide navigation links */
+    flex-direction: column;
+    position: absolute;
+    top: 70px; /* Adjust as needed */
+    left: 0px;
+    background-color: #f5f5f5;
+    color: #e35050;
+    width: 300px; /* Adjust the width as necessary */
+    padding: 10px;
+    z-index: 1000;
+    height: 1000px;
+border-radius: 4px;
+animation: nav-linksAni  0.7s ease-in-out;
+  }
+
+  .nav-links.show {
+    display: flex;
+
+    /* Show when the menu is open */
+  }
+
+  .nav-links .nav-link {
+    font-size: 30px;
+    color: #070707; /* Set the text color directly on the nav-link class */
+    text-decoration: none;
+
+    /* Optional: Remove underline from links */
+    border-bottom: 0.03px solid #48cfcb;
+    margin-top: 20px;
+    width: 100%;
+
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+
+  .hamburger-menu {
+    display: block;
+
+    /* Show hamburger icon */
+  }
+.tagHompePage{
+padding: 10px;
+}  
+.contenyDiv{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.abotName{
+font-size: 25px;
+padding: 7px;
+}
+.skill-div {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+
+}
+}
+
+
+@keyframes  nav-linksAni {
+  0%{
+transform: translateX(-200px);
+}
+100%{
+transform: translateX(0px)
+}
+}
+

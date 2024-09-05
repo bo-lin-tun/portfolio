@@ -40,6 +40,7 @@ const Skills = () => {
         </button>
       </div>
       <h1 style={{ marginLeft: "-990px", color: "#F5F5F5" }}> 𝐬𝐤𝐢𝐥𝐥𝐬</h1>
+
       <div className="skill-div">
         <div className="front-end">
           <h3>𝐟𝐫𝐨𝐧𝐭-𝐄𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐒𝐤𝐢𝐥𝐥𝐬</h3>
