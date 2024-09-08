@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+import Button from "@mui/material/Button";
 const Cv = () => {
   return (
     <div style={{ backgroundColor: "white" }}>
@@ -14,29 +16,26 @@ const Cv = () => {
         >
           <Navbar />
         </div>
-      
-        
-            <img src="cv.png" alt="" width={400} height={600} />
-         
-        
+
+        <img
+          style={{
+            margin: "10px",
+            border: "1px solid black",
+            padding: 2,
+          }}
+          src="cv.png"
+          alt=""
+          width={350}
+          height={600}
+        />
       </div>
-      
-        <a href="cv.png" download="cv.png">
-          <button
-            style={{
-              backgroundColor: "black",
-              color: "white",
-              height: "40px",
-              cursor: "pointer",
-              borderRadius: "10px",
-              position: "absolute",
-            }}
-          >
-            Download CV
-          </button>
-        </a>
-      </div>
-    
+
+      <a href="cv.png" download="cv.png">
+        <Button variant="contained" sx={{ mb: 2 }}>
+          <ArrowDownwardIcon /> Download CV
+        </Button>
+      </a>
+    </div>
   );
 };
 
