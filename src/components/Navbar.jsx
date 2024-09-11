@@ -36,6 +36,7 @@ style={{top:0,position:"sticky"}}>
             <Link className="nav-link " to="/cv">
               𝑪𝒗
             </Link>
+
           </nav>
         </button>
 

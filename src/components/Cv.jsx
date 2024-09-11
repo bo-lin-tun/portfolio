@@ -4,9 +4,9 @@ import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import Button from "@mui/material/Button";
 const Cv = () => {
   return (
-    <div style={{ backgroundColor: "white" }}>
+    <div>
       <div>
-        <div
+        {/* <div
           style={{
             backgroundColor: "#F5F5F5",
             padding: 10,
@@ -15,8 +15,8 @@ const Cv = () => {
           }}
         >
           <Navbar />
-        </div>
-
+        </div> */}
+        <h1 style={{ color: "white" }}>CV</h1>
         <img
           style={{
             margin: "10px",
@@ -31,7 +31,7 @@ const Cv = () => {
       </div>
 
       <a href="cv.png" download="cv.png">
-        <Button variant="contained" sx={{ mb: 2 }}>
+        <Button variant="contained" sx={{ mb: 2,bgcolor:"black" }}>
           <ArrowDownwardIcon /> Download CV
         </Button>
       </a>

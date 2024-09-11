@@ -4,9 +4,12 @@ import HomePage from "./components/HomePage";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./components/About";
-import Cv from "./components/Cv";
-import Skills from "./components/skills";
-import Projects from "./components/Projects";
+
+
+
+import ProjectsSection from "./components/ProjectsSection";
+import SkillSectioon from "./components/SkillSection";
+import Cvsectioon from "./components/Cvsectioon";
 
 function App() {
   return (
@@ -25,9 +28,9 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/about" element={<About />}></Route>
-          <Route path="/cv" element={<Cv />}></Route>
-          <Route path="/skills" element={<Skills />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/cv" element={<Cvsectioon />}></Route>
+          <Route path="/skills" element={<SkillSectioon />}></Route>
+          <Route path="/projects" element={<ProjectsSection />}></Route>
         </Routes>
       </Router>
     </div>

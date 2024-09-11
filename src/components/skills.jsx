@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div>
   
-        <div
+        {/* <div
           style={{
             backgroundColor: "#F5F5F5",
             padding: 10,
@@ -14,10 +14,10 @@ const Skills = () => {
           }}
         >
           <Navbar />
-        </div>
+        </div> */}
       <h1 style={{  color: "#F5F5F5" }}> 𝐬𝐤𝐢𝐥𝐥𝐬</h1>
 
-      <div className="skill-div">
+      <div className="skill-div" style={{backgroundColor:"##229799"}}>
         <div className="front-end">
           <h3>𝐟𝐫𝐨𝐧𝐭-𝐄𝐧𝐝 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐒𝐤𝐢𝐥𝐥𝐬</h3>
           <div>
@@ -132,7 +132,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
- <div
+ {/* <div
         style={{
           backgroundColor: "#F5F5F5",
 
@@ -144,7 +144,7 @@ const Skills = () => {
         <h2 style={{ color: "black" }}> 𝐌𝐲 𝐂𝐨𝐧𝐭𝐞𝐧𝐭</h2>
 
         <Content />
-      </div>
+      </div> */}
     </div>
   );
 };
