@@ -61,7 +61,7 @@ style={{top:0,position:"sticky"}}>
               }}
             >
               {" "}
-              𝐁𝐎 𝐋𝐈𝐍𝐍 𝐇𝐓𝐔𝐍
+              𝐁𝐎 Tun Hla
             </b>
           </h3>
           {/* Hamburger icon */}

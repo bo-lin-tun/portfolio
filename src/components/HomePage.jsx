@@ -34,7 +34,7 @@ const HomePage = () => {
         }}
       >
         <img
-          src="/profile.jpg"
+          src="/Developer_Icon_512x512.png"
           alt=""
           width={200}
           height={200}
@@ -56,7 +56,7 @@ const HomePage = () => {
             }}
           >
             {" "}
-            𝐈'm 𝐁𝐎 𝐋𝐈𝐍𝐍 𝐇𝐓𝐔𝐍
+            𝐈'm 𝐁𝐎 Tun Hla
           </b>
         </h3>
         <p

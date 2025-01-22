@@ -23,7 +23,7 @@ const Content = () => {
             href="https://www.messenger.com/"
             style={{ marginLeft: "40px", color: "black" }}
           >
-            𝐁𝐨 𝐋𝐢𝐧𝐧 𝐇𝐭𝐮𝐧
+            𝐁𝐨 Tun Hla
           </a>
         </div>
       </div>
@@ -37,7 +37,7 @@ const Content = () => {
             href="https://m.facebook.com/bo.l.htun.56?mibextid=LQQJ4d"
             style={{ marginLeft: "40px", color: "black" }}
           >
-            𝐁𝐨 𝐋𝐢𝐧𝐧 𝐇𝐭𝐮𝐧
+            𝐁𝐨 Tun Hla
           </a>
         </div>
         {/* gitgub */}
@@ -49,7 +49,7 @@ const Content = () => {
             href="https://github.com/bo-lin-tun"
             style={{ marginLeft: "40px", color: "black" }}
           >
-            𝐛𝐨-𝐥𝐢𝐧-𝐭𝐮𝐧
+            𝐛𝐨-tun-hla
           </a>
         </div>
       </div>
