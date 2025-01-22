@@ -19,7 +19,7 @@ const About = () => {
         </div>
         <h1 style={{ color: "#F5F5F5" }} className="abotName">
           𝙼𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜{" "}
-          <b style={{ color: "black", fontSize: "1.5em" }}>𝙱𝚘 𝙻𝚒𝚗𝚗 𝙷𝚝𝚞𝚗 </b>𝚊𝚗𝚍
+          <b style={{ color: "black", fontSize: "1.5em" }}>𝙱𝚘 Tun Hla </b>𝚊𝚗𝚍
           𝙸'𝚖 𝚊 𝚏𝚞𝚕𝚕 𝚜𝚝𝚊𝚌𝚔 𝚠𝚎𝚋 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛
         </h1>
         <h3>
